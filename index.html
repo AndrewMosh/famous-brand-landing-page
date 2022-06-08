@@ -11,33 +11,37 @@
     <link rel="stylesheet" href="jquery-3.6.0.min.js" />
   </head>
   <body>
-    <section class="top-nav">
-      <div>
-        <img class="logo" src="images/Logo.png" alt="adidas" /><a
-          href="index.html"
-        ></a>
-      </div>
-      <input id="menu-toggle" type="checkbox" />
-      <label class="menu-button-container" for="menu-toggle">
-        <div class="menu-button"></div>
-      </label>
-      <ul class="menu">
-        <li><a href="#"></a>Men</li>
-        <li>Women</li>
-        <li>Kids</li>
-        <li>Back to school</li>
+    <!-- NAVIGATION MENU -->
+    <nav class="navbar">
+      <img class="logo" src="images/Logo.png" alt="adidas" /><a
+        href="index.html"
+      ></a>
+      <ul class="nav-links">
+        <!-- USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+          <li><a href="/">Men</a></li>
+          <li><a href="/">Women</a></li>
+          <li class="services">
+            <a href="/">Kids</a>
+          </li>
+          <li><a href="/">Back to school</a></li>
+        </div>
       </ul>
-    </section>
-    <img class="zx" src="images/group.png" alt="" />
+    </nav>
+
+    <div class="zx"><img src="images/group.png" alt="" /></div>
+    <div class="more">
+      <h3><a href="#">show more →</a></h3>
+    </div>
     <div class="pagination">
       <div><a href="#"></a></div>
       <div><a href="#"></a></div>
       <div class="active"><a href="#"></a></div>
       <div><a href="#"></a></div>
       <div><a href="#"></a></div>
-    </div>
-    <div class="more">
-      <h3><a href="index2.html">show more →</a></h3>
     </div>
   </body>
 </html>
